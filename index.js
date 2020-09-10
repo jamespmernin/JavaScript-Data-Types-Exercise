@@ -79,62 +79,38 @@ console.log(kilograms);
 // 'George Clooney' 'Silvio Berlusconi'  and 'Isabella Rossellini'.
 // Log grandHotelTremezzoGuests to the console.
 
-
-
-
-
+let grandHotelTremezzoGuests = ['George Clooney', 'Silvio Berlusconi', 'Isabella Rossellini'];
+console.log(grandHotelTremezzoGuests);
 
 // A new guest is checking in! Add "Fabio" to the end of the array.
 // Log grandHotelTremezzoGuests to the console.
-
-
-
-
-
-
+grandHotelTremezzoGuests.push('Fabio');
+console.log(grandHotelTremezzoGuests);
 
 // False alarm! Fabio was on a roller coaster and got hit in the face with a pigeon
 // so he won't be able to stay at the hotel remove him from the end of the array.
 // Log grandHotelTremezzoGuests to the console.
-
-
-
-
-
+grandHotelTremezzoGuests.pop();
+console.log(grandHotelTremezzoGuests);
 
 // A new guest is checking in for real! Add 'Mario Batali' to the end of our array.
 // He is wearing a disguise...but orange crocs.
 // Log grandHotelTremezzoGuests to the console.
-
-
-
-
-
-
-
-
+grandHotelTremezzoGuests.push('Mario Batali');
+console.log(grandHotelTremezzoGuests);
 
 // Another new guest is checking in for real! He's a very important VIP guest
 // so let's add 'Gordon Ramsay' to the front of our array.
 // Who's going to tell him no? Not me.
 // Log grandHotelTremezzoGuests to the console.
-
-
-
-
-
-
-
+grandHotelTremezzoGuests.unshift('Gordon Ramsay'); // source for unshift: https://www.w3schools.com/jsref/jsref_unshift.asp
+console.log(grandHotelTremezzoGuests);
 
 // Create a variable called totalGuests that is equal to the number of guests staying in our hotel
 // by checking the items count of grandHotelTremezzoGuests array.
 // Log totalGuests to the console.
-
-
-
-
-
-
+let totalGuests = grandHotelTremezzoGuests.length;
+console.log(totalGuests);
 
 /********************************
  *

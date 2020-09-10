@@ -31,13 +31,13 @@
 // Set a constant named 'bestClass' equal to the name of our SEI class (myCohortNameHere) capitalized.
 // Log this value to the console.
 // let bestClass = 'myCohortNameHere'
-const bestClass = 'Phoenix'
-console.log(bestClass)
+const bestClass = 'Phoenix';
+console.log(bestClass);
 
 // Set a constant named bestClassLowercase that converts bestClass to an all lowercase string.
 // Log this value to the console.
-const bestClassLowercase = bestClass.toLowerCase()
-console.log(bestClassLowercase)
+const bestClassLowercase = bestClass.toLowerCase();
+console.log(bestClassLowercase);
 
 /********************************
  *
@@ -51,8 +51,8 @@ const amount2 = 3;
 // Write an expression here which adds the values of amount1 and amount2 and
 // sets them to a variable called total
 // Log the value of total to the console
-let total = amount1 + amount2
-console.log(total)
+let total = amount1 + amount2;
+console.log(total);
 
 /********************************
  *
@@ -65,16 +65,14 @@ const pounds = 155;
 // Write an expression here which converts pounds to kilograms and set the value equal
 // to a variable called "kilograms"
 // Log kilograms to the console
-
-
-
-
-
+let kilograms = pounds / 2.2046; // source of conversion factor: https://www.w3schools.com/howto/howto_js_weight_converter.asp
+console.log(kilograms);
 
 /********************************
  *
  * STEP D: Grand Hotel Tremezzo: Part 1
  * Arrays and Array Methods
+ *
  *********************************/
 
 // Create a variable grandHotelTremezzoGuests that is equal to an array containing three strings:

@@ -12,15 +12,15 @@
 
 
 
-const givenVariable = 20;
-const doubledVariable = givenVariable * 2;
-const tripledVariable = givenVariable * 3;
-console.log(doubledVariable);
-console.log('EXAMPLE', 'tripledVariable', tripledVariable);
+// const givenVariable = 20;
+// const doubledVariable = givenVariable * 2;
+// const tripledVariable = givenVariable * 3;
+// console.log(doubledVariable);
+// console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 // After running this and feeling comfortable, feel free to comment the above block of code out (either give each line a // or highlight the block of code and press COMMAND - / )
 
 // DATATYPES
- 
+
 /********************************
  *
  * STEP A: Strings
@@ -31,14 +31,13 @@ console.log('EXAMPLE', 'tripledVariable', tripledVariable);
 // Set a constant named 'bestClass' equal to the name of our SEI class (myCohortNameHere) capitalized.
 // Log this value to the console.
 // let bestClass = 'myCohortNameHere'
-
+const bestClass = 'Phoenix'
+console.log(bestClass)
 
 // Set a constant named bestClassLowercase that converts bestClass to an all lowercase string.
 // Log this value to the console.
-
-
-
-
+const bestClassLowercase = bestClass.toLowerCase()
+console.log(bestClassLowercase)
 
 /********************************
  *

@@ -150,11 +150,8 @@ console.log(totalGuests);
 // of the guest list on which to make his own edits and changes.
 // Create a variable that is a copy of the grandHotelTremezzoGuests
 // array and log the result.
-
-
-
-
-
+let guestList = grandHotelTremezzoGuests;
+console.log(guestList);
 
 // The boss wanted the copy of the guest list but doesn't want to make
 // the changes himself. He says, "I sign your checks, you work for me!"
@@ -162,19 +159,16 @@ console.log(totalGuests);
 // check the list for him.
 // On your newly created variable containing the copy, see if the list
 // includes Gordon Ramsay, the boss' favorite chef.
-
-
-
-
+let hasGordonRamsay = guestList.includes('Gordon Ramsay'); // source for 'includes method': https://www.w3schools.com/jsref/jsref_includes_array.asp
+console.log(hasGordonRamsay);
 
 // Now that the boss has verified Gordon is on the list, he notices
 // over your shoulder that he's at the front. He wants you to move the
 // list order around so that Gordon is at the end because "You save the best for
 // last! Scramble it, reverse it, do whatever you have to do"
 // Find the right method to accomplish this task.
-
-
-
+guestList = guestList.reverse(); // source for 'reverse' method: https://www.tutorialspoint.com/javascript/array_reverse.htm
+console.log(guestList);
 
 /********************************
  *

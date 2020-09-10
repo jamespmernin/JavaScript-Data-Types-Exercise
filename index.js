@@ -120,42 +120,28 @@ console.log(totalGuests);
 
 // Create a variable 'grandHotelTremezzoPastGuests' set to an empty Array.
 // Log grandHotelTremezzoPastGuests to the console
-
-
-
-
-
-
-
+let grandHotelTremezzoPastGuests = [];
+console.log(grandHotelTremezzoPastGuests);
 
 // George Clooney had a scooter accident so he has to check out.
 // Remove him from grandHotelTremezzoGuests using the splice method. (Google and MDN are your friends here 😊)
 // Then use the push method to add his name to 'grandHotelTremezzoPastGuests'
 // Log both grandHotelTremezzoGuests and grandHotelTremezzoPastGuests in the same console.log statement.
-
-
-
-
-
-
-
-
-
-
+grandHotelTremezzoGuests.splice(1, 1);
+grandHotelTremezzoPastGuests.push('George Clooney');
+console.log(grandHotelTremezzoGuests);
+console.log(grandHotelTremezzoPastGuests);
 
 // ***Re-assign*** the variable that is equal to the number of guests staying
 // in our hotel by checking the current items count of grandHotelTremezzoGuests array.
 // (Don't create a new variable!!)
 //  Log the variable to the console.
-
-
-
-
-
+totalGuests = grandHotelTremezzoGuests.length;
+console.log(totalGuests);
 
 /********************************
  *
- * STEP E: Grand Hotel Tremezzo: Part 2
+ * STEP F: Grand Hotel Tremezzo: Part 3
  *
  *********************************/
 

@@ -187,23 +187,16 @@ console.log(guestList);
 
 // Create an empty array assigned to a variable called sleepingGuests
 // Log sleepingGuests to the console.
-
-
-
-
-
-
+let sleepingGuests = [];
+console.log(sleepingGuests);
 
 // The guests passed out. Loop over the guests and add them to the sleepingGuests array.
 // (Don't remove them from grandHotelTremezzoGuests.)
 // Log sleepingGuests to the console.
-
-
-
-
-
-
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  sleepingGuests.push(grandHotelTremezzoGuests[i]);
+}
+console.log(sleepingGuests);
 
 /********************************
  *

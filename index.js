@@ -209,7 +209,9 @@ for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
 // The guests drank their bottles of Nero de Como and are getting rowdy.
 // Tell them to be quiet by using a for loop to log ... '*PERSON'S NAME* please hush up!!!'
 // for each guest in the grandHotelTremezzoGuests array.
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  console.log(`${grandHotelTremezzoGuests[i]} please hush up!!!`);
+}
 
 /********************************
  *

@@ -51,12 +51,8 @@ const amount2 = 3;
 // Write an expression here which adds the values of amount1 and amount2 and
 // sets them to a variable called total
 // Log the value of total to the console
-
-
-
-
-
-
+let total = amount1 + amount2
+console.log(total)
 
 /********************************
  *

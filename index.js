@@ -10,8 +10,6 @@
 // using console.log.
 // EXAMPLE - Try running node index.js before working on any of the parts and see what happens in the terminal.
 
-
-
 // const givenVariable = 20;
 // const doubledVariable = givenVariable * 2;
 // const tripledVariable = givenVariable * 3;
@@ -176,14 +174,11 @@ console.log(guestList);
  *
  *********************************/
 
-
-
 /********************************
  *
  * Bonus 1
  *
  *********************************/
-
 
 // Create an empty array assigned to a variable called sleepingGuests
 // Log sleepingGuests to the console.
@@ -204,26 +199,16 @@ console.log(sleepingGuests);
  *
  *********************************/
 
-
-
 // The hotel is going to deliver a bottle of Nero de Como to each guest.
 // Use a for loop to log out '*PERSON'S NAME* gets a bottle of Nero de Como'
 // for each guest in the grandHotelTremezzoGuests array.
-
-
-
-
-
-
+for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
+  console.log(`${grandHotelTremezzoGuests[i]} gets a bottle of Nero de Como`); // source for interpolation: https://dmitripavlutin.com/string-interpolation-in-javascript/
+}
 
 // The guests drank their bottles of Nero de Como and are getting rowdy.
 // Tell them to be quiet by using a for loop to log ... '*PERSON'S NAME* please hush up!!!'
 // for each guest in the grandHotelTremezzoGuests array.
-
-
-
-
-
 
 
 /********************************
@@ -236,7 +221,3 @@ console.log(sleepingGuests);
 // Use splice to remove all of the guests (simultaneously using push to add them
 // to the array of checked out guests). Log both grandHotelTremezzoGuests
 // and grandHotelTremezzoPastGuests in the same log statement.
-
-
-
-

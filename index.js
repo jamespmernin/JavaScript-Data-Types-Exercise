@@ -223,3 +223,8 @@ for (let i = 0; i < grandHotelTremezzoGuests.length; i++) {
 // Use splice to remove all of the guests (simultaneously using push to add them
 // to the array of checked out guests). Log both grandHotelTremezzoGuests
 // and grandHotelTremezzoPastGuests in the same log statement.
+// Source for the 'for' loop setup: https://stackoverflow.com/questions/49581071/splice-value-from-an-array-and-push-spliced-value-into-another-array
+for (let i = grandHotelTremezzoGuests.length - 1; i >= 0; i--) {
+  grandHotelTremezzoPastGuests.push(grandHotelTremezzoGuests.splice(i, 1));
+}
+console.log(`grandHotelTremezzoGuests: ${grandHotelTremezzoGuests}\ngrandHotelTremezzoPastGuests: ${grandHotelTremezzoPastGuests}`);
